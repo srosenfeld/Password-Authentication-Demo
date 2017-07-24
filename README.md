@@ -4,7 +4,6 @@ System that mimics a username and password authentication system
 
 Steps to complete:
 
-1. Connect to example database with users & passwords stored
-2. Execute SQL to check entered user & pw against database
-3. Allow logged in user to post text, include timestamp (and possibly location?)
-4. Deny entry to non users
+1. Allow logged in user to post text, include timestamp (and possibly location?)
+2. Repeat login step if username/password don't match
+3. Disable login after several attempts
